@@ -28,3 +28,9 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+
+CollectingArrayElementsByCondition(array1, array2);
+Console.WriteLine("Исходный массив:");
+PrintArray(array1);
+Console.WriteLine("Получившийся массив:");
+PrintArray(array2);
